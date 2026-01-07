@@ -10,9 +10,9 @@ func TestTask1(t *testing.T) {
 	g := NewGomegaWithT(t)
 
 	employee := entity.Employees{
-		Name:         "Tan",
-		Salary:       16000,
-		EmployeeCode: "HR-1024",
+		Name:         "tanthorsang",
+		Salary:       20000,
+		EmployeeCode: "AB-1234",
 	}
 
 	ok, err := employee.Validate()
