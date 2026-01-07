@@ -11,8 +11,8 @@ func TestTask3(t *testing.T) {
 
 	employee := entity.Employees{
 		Name:         "Tan",
-		Salary:       12000,
-		EmployeeCode: "HR-10245656",
+		Salary:       17000,
+		EmployeeCode: "HR-10245655",
 	}
 
 	ok, err := employee.Validate()
