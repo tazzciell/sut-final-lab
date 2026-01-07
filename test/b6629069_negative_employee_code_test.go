@@ -6,7 +6,7 @@ import (
 	"testing"
 )
 
-func TestTask2(t *testing.T) {
+func TestTask3(t *testing.T) {
 	g := NewGomegaWithT(t)
 
 	employee := entity.Employees{
